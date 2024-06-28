@@ -1,0 +1,83 @@
+24-06-29.04:27:01.071 [main            ] INFO  WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v3.0.9) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v3.0.9) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+24-06-29.04:27:01.112 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 6.2.5.Final
+24-06-29.04:27:01.118 [main            ] INFO  Application            - Starting Application using Java 1.8.0_341 on LAPTOP-SHK1H672 with PID 2836 (D:\javaProject\GreatMarkingSystem\GreatMarkingSystem-app\target\classes started by 25006 in D:\javaProject\GreatMarkingSystem)
+24-06-29.04:27:01.119 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-06-29.04:27:02.701 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default framework from null to Dubbo Framework[1], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.701 [main            ] INFO  FrameworkModel         -  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.745 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.745 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.771 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.771 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.818 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default application from null to Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.818 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.819 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.824 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.824 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.835 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.835 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.839 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.842 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:02.842 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a891c97, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.087 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-06-29.04:27:03.089 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-06-29.04:27:03.113 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+24-06-29.04:27:03.188 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.188 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.193 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] Found 1 classes annotated by Dubbo @Service under package [cn.lyy]: [cn.lyy.trigger.rpc.UserService], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.201 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] Register ServiceBean[ServiceBean:cn.lyy.api.IUserService:1.0.0]: Root bean: class [org.apache.dubbo.config.spring.ServiceBean]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.202 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.202 [main            ] INFO  ServiceAnnotationPostProcessor -  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.202 [main            ] WARN  ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [cn.bugstack.api], ignore re-scanned classes: 0, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:03.217 [main            ] INFO  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+24-06-29.04:27:03.217 [main            ] INFO  ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+24-06-29.04:27:03.791 [main            ] INFO  ReferenceAnnotationBeanPostProcessor - class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
+24-06-29.04:27:04.279 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-06-29.04:27:04.280 [main            ] INFO  AprLifecycleListener   - Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.4].
+24-06-29.04:27:04.280 [main            ] INFO  AprLifecycleListener   - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+24-06-29.04:27:04.280 [main            ] INFO  AprLifecycleListener   - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+24-06-29.04:27:04.304 [main            ] INFO  AprLifecycleListener   - OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+24-06-29.04:27:04.311 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-06-29.04:27:04.311 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-06-29.04:27:04.311 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-06-29.04:27:04.420 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-06-29.04:27:04.420 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3095 ms
+24-06-29.04:27:04.776 [main            ] INFO  DubboConfigBeanInitializer - loading dubbo config beans ...
+24-06-29.04:27:04.778 [main            ] INFO  DubboConfigBeanInitializer - dubbo config beans are loaded.
+24-06-29.04:27:04.818 [main            ] INFO  DefaultApplicationDeployer -  [DUBBO] No value is configured in the registry, the DynamicConfigurationFactory extension[name : nacos] supports as the config center, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:04.818 [main            ] INFO  DefaultApplicationDeployer -  [DUBBO] The registry[<dubbo:registry id="nacos-registry" address="nacos://127.0.0.1:8848" protocol="nacos" port="8848" />] will be used as the config center, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:04.823 [main            ] INFO  DefaultApplicationDeployer -  [DUBBO] use registry as config-center: <dubbo:config-center highestPriority="false" id="config-center-nacos-127.0.0.1-8848" address="nacos://127.0.0.1:8848" protocol="nacos" port="8848" />, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:04.884 [main            ] INFO  ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+24-06-29.04:27:04.884 [main            ] INFO  ClientAuthPluginManager - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+24-06-29.04:27:11.457 [DubboShutdownHook] INFO  DubboShutdownHook      -  [DUBBO] Run shutdown hook now., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.457 [Thread-11       ] WARN  HttpClientBeanHolder   - [HttpClientBeanHolder] Start destroying common HttpClient
+24-06-29.04:27:11.457 [Thread-16       ] WARN  NotifyCenter           - [NotifyCenter] Start destroying Publisher
+24-06-29.04:27:11.457 [Thread-16       ] WARN  NotifyCenter           - [NotifyCenter] Destruction of the end
+24-06-29.04:27:11.457 [DubboShutdownHook] INFO  FrameworkModel         -  [DUBBO] Reset global default application from Dubbo Application[1.1](xfg-frame-archetype-std) to null, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.458 [DubboShutdownHook] INFO  DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](xfg-frame-archetype-std) is stopping., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.458 [DubboShutdownHook] INFO  RegistryManager        -  [DUBBO] Close all registries [], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.458 [Thread-11       ] WARN  HttpClientBeanHolder   - [HttpClientBeanHolder] Destruction of the end
+24-06-29.04:27:11.463 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.1.1] is stopping., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.463 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.1.1] has stopped., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.464 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.1.0] is stopping., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.464 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.1.0] has stopped., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.464 [DubboShutdownHook] INFO  DefaultExecutorRepository -  [DUBBO] destroying application executor repository .., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.1](xfg-frame-archetype-std) has stopped., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  FrameworkModel         -  [DUBBO] Destroying default framework model: Dubbo Framework[1], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  FrameworkModel         -  [DUBBO] Dubbo Framework[1] is destroying ..., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) is stopping., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  RegistryManager        -  [DUBBO] Close all registries [], dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.0.0] is stopping., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultModuleDeployer  -  [DUBBO] Dubbo Module[1.0.0] has stopped., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultExecutorRepository -  [DUBBO] destroying application executor repository .., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  DefaultApplicationDeployer -  [DUBBO] Dubbo Application[1.0](DUBBO_INTERNAL_APPLICATION) has stopped., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  FrameworkModel         -  [DUBBO] Dubbo Framework[1] is destroyed, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  FrameworkModel         -  [DUBBO] Reset global default framework from Dubbo Framework[1] to null, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  GlobalResourcesRepository -  [DUBBO] Destroying global resources ..., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  GlobalResourcesRepository -  [DUBBO] Dubbo is completely destroyed, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.465 [DubboShutdownHook] INFO  FrameworkExecutorRepository -  [DUBBO] destroying framework executor repository .., dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:13.258 [SpringApplicationShutdownHook] INFO  DubboSpringInitializer -  [DUBBO] Unbind Dubbo Module[1.1.1] from spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@4a891c97, dubbo version: 3.0.9, current host: 192.168.131.1

@@ -1,0 +1,5 @@
+24-06-29.04:27:03.202 [main            ] WARN  ServiceAnnotationPostProcessor -  [DUBBO] No class annotated by Dubbo @Service was found under package [cn.bugstack.api], ignore re-scanned classes: 0, dubbo version: 3.0.9, current host: 192.168.131.1
+24-06-29.04:27:11.457 [Thread-11       ] WARN  HttpClientBeanHolder   - [HttpClientBeanHolder] Start destroying common HttpClient
+24-06-29.04:27:11.457 [Thread-16       ] WARN  NotifyCenter           - [NotifyCenter] Start destroying Publisher
+24-06-29.04:27:11.457 [Thread-16       ] WARN  NotifyCenter           - [NotifyCenter] Destruction of the end
+24-06-29.04:27:11.458 [Thread-11       ] WARN  HttpClientBeanHolder   - [HttpClientBeanHolder] Destruction of the end
